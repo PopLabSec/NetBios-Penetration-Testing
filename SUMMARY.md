@@ -1,37 +1,39 @@
 # Table of contents
 
-* [😎 Hacking Port 3389](README.md)
+* [Welcome!](README.md)
 
-## The Company
+## NetBios Protocol
 
-* [Vision and Values](the-company/vision-and-values.md)
-* [Author](http://127.0.0.1:5000/o/at4Z0L3dsguKUukMngZV/s/RrohvYgB4lDjGgyXlwst/)
+* [What is NetBios?](netbios-protocol/what-is-netbios.md)
+* [NetBIOS Versions](netbios-protocol/netbios-versions.md)
+* [NetBIOS Codes](netbios-protocol/netbios-codes.md)
 
-## Learn RDP
+## NetBIOS - What to Enumerate?
 
-* [Page 5](learn-rdp/page-5.md)
+* [Page 2](netbios-what-to-enumerate/page-2.md)
 
-## Tools
+## NetBIOS Tools
 
-* [Page 3](tools/page-3.md)
+* [nbstat](netbios-tools/nbstat.md)
+* [NmbLookup](netbios-tools/nmblookup.md)
+* [Nmap and NetBIOS](netbios-tools/nmap-and-netbios.md)
+* [Microsoft Tools](netbios-tools/microsoft-tools/README.md)
+  * [Dsget](netbios-tools/microsoft-tools/dsget.md)
+  * [PsList](netbios-tools/microsoft-tools/pslist.md)
+  * [psloggedon](netbios-tools/microsoft-tools/psloggedon.md)
+  * [PsLogList](netbios-tools/microsoft-tools/psloglist.md)
+  * [PsPasswd](netbios-tools/microsoft-tools/pspasswd.md)
+  * [PsShutdown](netbios-tools/microsoft-tools/psshutdown.md)
+  * [NetBIOS Enumerator](netbios-tools/microsoft-tools/netbios-enumerator.md)
 
-## Enumeration
+## NetBIOS Attacks
 
-* [Nmap and RDP Protocol](enumeration/nmap-and-rdp-protocol.md)
+* [Enumerating SIDs](netbios-attacks/enumerating-sids.md)
+* [Enumerating User Accounts](netbios-attacks/enumerating-user-accounts.md)
+* [Administrator ID](netbios-attacks/administrator-id.md)
+* [NetBIOS Name Service Spoofer](netbios-attacks/netbios-name-service-spoofer.md)
 
-## RDP Exploitation
+## NetBIOS Exploits
 
-* [RDP Exploits](rdp-exploitation/rdp-exploits.md)
-* [Brute Force RDP Protocol](rdp-exploitation/brute-force-rdp-protocol.md)
-
-## POST Exploitation
-
-* [Persistence](post-exploitation/persistence.md)
-
-## data2
-
-* [Page 2](data2/page-2.md)
-
-## Data
-
-* [Page 1](data/page-1.md)
+* [smb\_ms17\_010](netbios-exploits/smb\_ms17\_010.md)
+* [ms17\_010\_eternalblue](netbios-exploits/ms17\_010\_eternalblue.md)
